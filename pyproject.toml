@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "trade"
+version = "0.1.0"
+description = ""
+authors = ["Stoj <stojanjo@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alpaca-py = "^0.28.0"
+setuptools = "^71.1.0"
+python-dotenv = "^1.0.1"
+httpie = "^3.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
